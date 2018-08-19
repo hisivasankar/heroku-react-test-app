@@ -1,0 +1,27 @@
+{
+  "name": "heroku-react-test-app",
+  "version": "1.0.0",
+  "description": "Simple app to test React, Heroku and build pipeline",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node .",
+    "develop": "nodemon .",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hisivasankar/heroku-react-test-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hisivasankar/heroku-react-test-app/issues"
+  },
+  "homepage": "https://github.com/hisivasankar/heroku-react-test-app#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
